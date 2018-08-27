@@ -45,7 +45,7 @@
     font-weight: 300;
 }
 
-.error__message {
+.warning__message {
     margin: 0 0 24px 0;
     color: orangered;
 }
@@ -63,6 +63,19 @@
     color: white;
 }
 
-.footer__button:hover {
+.footer__button:hover:not(.footer__button--disabled) {
     opacity: 0.7;
+}
+
+.footer__button.footer__button--disabled {
+    background-color: #b6b6b6;
+}
+
+.hint__message {
+    margin: 0 0 24px 0;
+    color: #333;
+}
+
+.hint__message.hint__message--warning {
+    color: orangered;
 }
