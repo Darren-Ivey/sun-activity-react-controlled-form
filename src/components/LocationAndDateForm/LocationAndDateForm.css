@@ -73,7 +73,7 @@
 
 .hint__message {
     margin: 0 0 24px 0;
-    color: #333;
+    color: cadetblue;
 }
 
 .hint__message.hint__message--warning {
